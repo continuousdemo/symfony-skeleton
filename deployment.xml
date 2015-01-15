@@ -9,6 +9,6 @@
         <release>dev-master</release>
     </version>
     <appdir/>
-    <docroot>public</docroot>
+    <docroot>web</docroot>
     <scriptsdir>scripts</scriptsdir>
 </package>
