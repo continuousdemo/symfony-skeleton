@@ -10,3 +10,11 @@
 /vendor/
 /bin/
 /composer.phar
+/.settings
+/.buildpath
+/.project
+/.idea
+.DS_Store
+.vagrant
+.idea
+Thumbs.db
