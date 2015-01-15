@@ -36,4 +36,4 @@ chdir($deph->getParams()->getApplicationBaseDir());
 $log = $deph->startGuiLog();
 $shell = $deph->getShell();
 $shell->setLog($log);
-$shell->exec('chmod +x ./website/var/cache');
+$shell->exec('chmod -R 775 ./app/cache');
