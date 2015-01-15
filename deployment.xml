@@ -2,9 +2,9 @@
 <!-- @See: http://files.zend.com/help/Zend-Server-7/zend-server.htm#understanding_the_package_structure.htm -->
 <package xmlns="http://www.zend.com/server/deployment-descriptor/1.0" version="1.0">
     <type>application</type>
-    <name>Laravel</name>
-    <summary>Laravel skeleton</summary>
-    <description>Laravel Skeleton Application</description>
+    <name>Symfony</name>
+    <summary>Symfony Skeleton</summary>
+    <description>Symfony Skeleton Application</description>
     <version>
         <release>dev-master</release>
     </version>
