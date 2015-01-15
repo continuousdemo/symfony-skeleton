@@ -37,3 +37,7 @@ $log = $deph->startGuiLog();
 $shell = $deph->getShell();
 $shell->setLog($log);
 $shell->exec('chmod -R 775 ./app/cache');
+$shell->exec('mkdir ./web/bundles');
+$shell->exec('chmod -R 775 ./web/bundles');
+$shell->exec('ln -s ./vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/public ./web/bundles/framework');
+$shell->exec('ln -s ./vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/Resources/public ./web/bundles/sensiodistribution');
