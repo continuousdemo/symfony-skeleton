@@ -1,0 +1,15 @@
+<project name="SymfonySkeleton" default="help" basedir=".">
+    <property file="./build.properties" />
+
+    <target name="help" description="List available targets">
+        <exec executable="vendor/bin/phing"
+              passthru="true">
+            <arg value="-l"/>
+        </exec>
+    </target>
+
+    <target name="setup" description="setup third party dependencies">
+        <echo message="setting up application..." />
+    </target>
+
+</project>
