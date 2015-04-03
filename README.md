@@ -1,3 +1,5 @@
+[![continuousphp](https://status.continuousphp.com/git-hub/continuousphp/symfony-skeleton?token=87d598d8-0787-4b0b-a663-c8645eed97c5)](https://continuousphp.com/git-hub/continuousphp/symfony-skeleton)
+
 Symfony Standard Edition
 ========================
 
